@@ -8,9 +8,9 @@ int main(void)
     char s = '\0';
 
     scanf("%d", &n);
-
+    getchar();
     for (int i = 0; i < n; i++) {
-        scanf(" %c", &s);
+        scanf("%c", &s);
 
         if (s >= 'a' && s <= 'z') {
             alp_cnt++;
